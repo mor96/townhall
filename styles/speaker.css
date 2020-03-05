@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	margin-top: 0;
+	margin-bottom: 0;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+
+html {
+	background-color: white;
+}
+header {
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+/* the styles for the header */
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/* the styles for the section */
+main {
+	clear: left;
+
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+aside {
+	width: 215px;
+	float: right;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;	
+}
+
+aside img {
+	padding-bottom: 1em;
+}
+
+/* the styles for the footer */
+
+header h1 {
+	font-size: 170%;
+	color: #800000;
+	
+}
+
+header h2 {
+	font-size: 130%;
+	font-style: italic;
+	
+}
+
+main h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	
+}
+
+main h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+main img {
+	padding-bottom: 1em;
+}
+
+main p {
+	padding-bottom: .5em;
+}
+
+main blockquote {
+	padding-left: 2em;
+	padding-right: 2em;
+	font-style: italic;
+}
+
+a:link {
+	font-style: italic; 
+}
+
+a:hover {
+	font-style: italic; 
+
+}
+
+a:focus {
+	font-style: italic; 
+}
+
+footer p {
+	text-align: center;
+	color: white;
+}
+footer {
+	background-color: #931420;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	clear: both;
+}
+
+.shadow {
+	text-shadow: 2px 2px  #800000; 
+}
+
+main li {
+	margin-left: 25px;
+	padding-bottom: .35em;
+}
+main ul {
+	padding-bottom: .25em;
+	padding-left: 1.25;
+}
+
+h1 {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: 0;
+}
+article {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+article img {
+	float: right;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 2em;
+}
+article h2{
+	padding-top: 0;
+}
+article h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+
+
+
+
+
