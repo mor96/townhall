@@ -63,13 +63,13 @@ aside img {
 
 /* the styles for the footer */
 
-header h1 {
+header h2 {
 	font-size: 170%;
 	color: #800000;
 	
 }
 
-header h2 {
+header h3 {
 	font-size: 130%;
 	font-style: italic;
 	
