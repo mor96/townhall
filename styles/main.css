@@ -38,15 +38,17 @@ header img {
 }
 #nav_menu ul li{
 	float: left;
+	width: 20%;
 }
 #nav_menu ul li a {
 	display: block;
-	width: 160px;
+	width: 100%;
 	text-align: center;
 	text-decoration: none;
 	background-color: #800000;
 	color: white;
 	font-weight: bold;
+	padding: .25em 0;
 }
 #nav_menu ul li a.current{
 	color: yellow;
@@ -228,7 +230,7 @@ section ul {
 	section h2, aside h2 {font-size: 120%;}
 	
 }
-@media only screen and (max-width: 767px) and (orientation: landscape) {
+@media only screen and (max-width: 767px) {
 	header img {float: none;}
 	header {text-align: center;}
 	aside, section {float: none;}
