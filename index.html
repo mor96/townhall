@@ -99,8 +99,21 @@
 		
 	</main>
 	<footer>
-			<p>&copy; 2018, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
-		
+		<p>
+            <script>
+               var today = new Date();
+               document.write("Current date: ");
+               document.write(today.toDateString());
+            </script>
+        </p>
+        <p>
+            <script>
+                var today = new Date();
+                document.write("&copy;&nbsp;");
+                document.write(today.getFullYear());
+                document.write(", San Joaquin Valley Town Hall");
+            </script>
+        </p>	
 	</footer>
 </body>
 </html>

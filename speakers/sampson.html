@@ -7,6 +7,7 @@
 	<link rel="shortcut icon" href="../images/favicon.ico">
 	<link rel="stylesheet" href="../styles/normalize.css">
 	<link rel="stylesheet" href="../styles/speaker.css">
+	<script src="printPage.js"></script>
 </head>
 
 <body>
@@ -70,6 +71,7 @@
 				
 		</section>
 		<aside>
+			<input type="button" id="printButton" value="Print the page">
 			<h2>Guest speakers</h1>
 			
 			<h3>October
@@ -95,8 +97,21 @@
 		
 	</main>
 	<footer>
-			<p>&copy; 2018, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
-		
+		<p>
+            <script>
+               var today = new Date();
+               document.write("Current date: ");
+               document.write(today.toDateString());
+            </script>
+        </p>
+        <p>
+            <script>
+                var today = new Date();
+                document.write("&copy;&nbsp;");
+                document.write(today.getFullYear());
+                document.write(", San Joaquin Valley Town Hall");
+            </script>
+        </p>	
 	</footer>
 </body>
 </html>
